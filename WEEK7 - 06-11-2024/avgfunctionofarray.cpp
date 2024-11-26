@@ -2,7 +2,7 @@
 
 float average(int *p, int q){
 	int j;
-	float sum;
+	float sum = 0;
 	for(j = 0; j<q; j++){
 		sum += p[j];
 	}
