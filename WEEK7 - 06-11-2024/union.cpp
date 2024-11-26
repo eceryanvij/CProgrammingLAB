@@ -11,7 +11,7 @@ union Student{
 
 int main(){
 
-	int sum, i;
+	int sum = 0, i;
 	union Student s;
 	printf("Enter name: ");
 	scanf("%49[^\n]s", &s.name);
